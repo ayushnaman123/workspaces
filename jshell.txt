@@ -1,0 +1,65 @@
+JShell -- JShell stands for Java Shell. It is an interactive tool for learning programming
+          language. It is (REPL) Read-Evaluate-Print-Loop, which evaluates declarations,
+          statements and expressions and immediately shown result.
+
+C:\Users\ayush>jshell
+|  Welcome to JShell -- Version 17.0.8
+|  For an introduction type: /help intro
+
+jshell> /
+|  Command: '/' is ambiguous: /list, /edit, /drop, /save, /open, /vars, /methods, /types, /imports, /exit, /env, /reset, /reload, 
+   /history, /debug, /help, /set, /?, /!Type /help for help.
+
+jshell> 5*2
+$1 ==> 10
+
+jshell> 55-23
+$2 ==> 32
+
+jshell> 10%3
+$3 ==> 1
+
+jshell> 55/2
+$4 ==> 27
+
+jshell> System.out.print(88)
+88
+jshell> System.out.print("Hello Java Learners")
+Hello Java Learners
+jshell> /list
+
+   1 : 5*2
+   2 : 55-23
+   3 : 10%3
+   4 : 55/2
+   5 : System.out.print(88)
+   6 : System.out.print("Hello Java Learners")
+
+jshell> /save javashell.txt
+
+jshell> /open javashell.txt
+88Hello Java Learners
+jshell> /reset
+|  Resetting state.
+
+jshell> /list
+
+jshell> /reload
+|  Restarting and restoring state.
+
+jshell> /list
+
+jshell> /vars
+
+jshell> /open javashell.txt
+88Hello Java Learners
+jshell> /reset
+|  Resetting state.
+
+jshell> /list
+
+jshell> 345-332
+$1 ==> 13
+
+jshell> /vars
+|    int $1 = 13
